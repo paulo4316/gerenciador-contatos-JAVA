@@ -19,3 +19,18 @@
 - Java 11 ou superior instalado
 - Maven instalado
 - Um terminal de linha de comando
+
+# Como Executar
+Clone o repositório para o seu ambiente local:
+git clone https://github.com/paulo4316/gerenciador-contatos.git
+
+## Navegue até o diretório do projeto:
+cd gerenciador-contatos
+
+## Compile o projeto utilizando Maven:
+mvn clean install
+
+## Execute o aplicativo Spring Boot:
+mvn spring-boot:run
+
+## O aplicativo estará disponível em http://localhost:8080.
